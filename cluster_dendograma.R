@@ -7,7 +7,7 @@ library(NbClust)
 library(tidyr)
 library(ggplot2)
 
-df= read.csv("C:/Users/sebastianzapata/Downloads/indice_paises.csv"
+df= read.csv(""
              , header = TRUE, sep = ";", quote = "\"",
              dec = ",", fill = TRUE, comment.char = "")
 View(df)
